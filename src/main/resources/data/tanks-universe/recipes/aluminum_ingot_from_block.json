@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tanks-universe:aluminum_block"
+		}
+	],
+	"result": {
+		"item": "tanks-universe:aluminum_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,8 @@
+{
+ 	"replace": false,
+  	"values": [
+   		"tanks-universe:aluminum_block",
+		"tanks-universe:aluminum_ore",
+		"tanks-universe:deepslate_aluminum_ore"
+  	]
+}

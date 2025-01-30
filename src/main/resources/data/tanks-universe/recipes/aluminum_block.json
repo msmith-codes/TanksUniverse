@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": { "item": "tanks-universe:aluminum_ingot" }
+	},
+	"result": {
+		"item": "tanks-universe:aluminum_block"
+	}
+}
