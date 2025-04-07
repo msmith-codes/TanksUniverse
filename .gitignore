@@ -24,6 +24,8 @@ bin/
 .classpath
 .project
 
+*.afphoto~lock~
+
 # macos
 
 *.DS_Store
