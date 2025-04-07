@@ -1,6 +1,7 @@
 package dev.tankpillow.universe.block;
 
 import dev.tankpillow.universe.TanksUniverse;
+import dev.tankpillow.universe.block.blocks.CoalGenerator;
 import dev.tankpillow.universe.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -32,6 +33,8 @@ public class ModBlocks
 					.strength(6f)
 					.requiresTool()
 					.sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroup.UNIVERSE_BLOCKS);
+	
+	public static final Block COAL_GENERATOR = registerBlock("coal_generator", new CoalGenerator(), ModItemGroup.UNIVERSE_BLOCKS);
 	
 	public static Block registerBlock(String name, Block block, ItemGroup group)
 	{
